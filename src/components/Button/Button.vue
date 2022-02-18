@@ -1,7 +1,10 @@
 <template>
-  <button type="button" @click="onClick">
-    {{ label }}
-  </button>
+  <div>
+    <label> This is the button from Watson </label>
+    <button type="button" @click="onClick">
+      {{ label }}
+    </button>
+  </div>
 </template>
 
 <script>
@@ -12,6 +15,7 @@ export default {
     label: {
       type: String,
       required: true,
+      default: 'Button Label',
     },
     size: {
       type: String,
@@ -33,6 +37,8 @@ export default {
        *
        * @event click
        */
+
+      console.log('This is a click!')
       this.$emit('click')
     },
   },

@@ -1,16 +1,27 @@
 {
-  "name": "watson-vue-storybook",
-  "version": "0.1.0",
-  "private": true,
+  "name": "watson-vue",
+  "version": "0.0.4",
+  "private": false,
+  "description": "Watson Vue Components",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/danigonlinea/watson-vue-storybook"
+  },
+  "author": "danigonlinea",
+  "main": "dist/watson-vue.umd.min.js",
+  "files": [
+    "dist/*"
+  ],
   "scripts": {
     "dev": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "create:lib": "vue-cli-service build --no-clean --target lib --name watson-vue src/main.js"
   },
-  "dependencies": {
+  "peerDependencies": {
     "core-js": "^3.6.5",
     "vue": "^2.6.11"
   },
@@ -31,6 +42,8 @@
     "eslint-plugin-vue": "^6.2.2",
     "prettier": "^2.5.1",
     "vue-loader": "^15.9.8",
-    "vue-template-compiler": "^2.6.14"
+    "vue-template-compiler": "^2.6.14",
+    "core-js": "^3.6.5",
+    "vue": "^2.6.11"
   }
 }

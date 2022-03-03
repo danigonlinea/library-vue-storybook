@@ -1,6 +1,6 @@
 {
   "name": "watson-vue",
-  "version": "0.0.4",
+  "version": "0.0.17",
   "private": false,
   "description": "Watson Vue Components",
   "repository": {
@@ -9,8 +9,12 @@
   },
   "author": "danigonlinea",
   "main": "dist/watson-vue.umd.min.js",
+  "exports": {
+    "./css": "./src/styles"
+  },
   "files": [
-    "dist/*"
+    "dist/*",
+    "src/styles/*"
   ],
   "scripts": {
     "dev": "vue-cli-service serve",
@@ -19,8 +23,10 @@
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
     "format": "prettier --write .",
-    "create:lib": "vue-cli-service build --no-clean --target lib --name watson-vue src/main.js"
+    "create:lib": "rm -rf dist && vue-cli-service build --no-clean --target lib --name watson-vue src/main.js",
+    "published": "yarn version patch && yarn create:lib && npm publish"
   },
+  "sideEffects": true,
   "peerDependencies": {
     "core-js": "^3.6.5",
     "vue": "^2.6.11"
@@ -37,13 +43,15 @@
     "@vue/eslint-config-prettier": "^6.0.0",
     "babel-eslint": "^10.1.0",
     "babel-loader": "^8.2.3",
+    "core-js": "^3.6.5",
     "eslint": "^6.7.2",
     "eslint-plugin-prettier": "^3.3.1",
     "eslint-plugin-vue": "^6.2.2",
     "prettier": "^2.5.1",
+    "sass": "^1.49.8",
+    "sass-loader": "^10",
+    "vue": "^2.6.11",
     "vue-loader": "^15.9.8",
-    "vue-template-compiler": "^2.6.14",
-    "core-js": "^3.6.5",
-    "vue": "^2.6.11"
+    "vue-template-compiler": "^2.6.14"
   }
 }

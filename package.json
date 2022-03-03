@@ -22,7 +22,7 @@
     "build-storybook": "build-storybook",
     "format": "prettier --write .",
     "create:lib": "rm -rf dist && vue-cli-service build --no-clean --target lib --name watson-vue src/main.js",
-    "release": "yarn version patch && yarn create:lib && npm publish"
+    "release:patch": "yarn version --patch && yarn create:lib && yarn publish"
   },
   "sideEffects": true,
   "peerDependencies": {

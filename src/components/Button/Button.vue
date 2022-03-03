@@ -1,7 +1,7 @@
 <template>
   <div>
     <label> This is the button from Watson </label>
-    <button type="button" @click="onClick">
+    <button class="watson-btn" type="button" @click="onClick">
       {{ label }}
     </button>
   </div>
@@ -45,17 +45,11 @@ export default {
 }
 </script>
 
-<style lang="css">
-:root {
-  --primary-color: #41b883;
-  --on-primary-color: white;
+<style lang="scss">
+@import '../../styles/colors.scss';
 
-  --small-spacing: 12px;
-  --normal-spacing: calc(var(--small-spacing) * 2);
-}
-
-button {
-  border: 1px solid #eee;
+.watson-btn {
+  border: 1px solid $color-example;
   border-radius: 3px;
   background-color: var(--primary-color);
   cursor: pointer;

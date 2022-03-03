@@ -1,6 +1,6 @@
 {
   "name": "watson-vue",
-  "version": "0.0.22",
+  "version": "0.0.23",
   "private": false,
   "description": "Watson Vue Components",
   "repository": {
@@ -22,7 +22,7 @@
     "build-storybook": "build-storybook",
     "format": "prettier --write .",
     "create:lib": "rm -rf dist && vue-cli-service build --no-clean --target lib --name watson-vue src/main.js",
-    "release:patch": "yarn version --patch && yarn create:lib && npm publish"
+    "release:patch": "yarn version --patch && yarn create:lib && yarn publish"
   },
   "sideEffects": true,
   "peerDependencies": {

@@ -1,6 +1,6 @@
 {
   "name": "watson-vue",
-  "version": "0.0.17",
+  "version": "0.0.18",
   "private": false,
   "description": "Watson Vue Components",
   "repository": {
@@ -9,9 +9,7 @@
   },
   "author": "danigonlinea",
   "main": "dist/watson-vue.umd.min.js",
-  "exports": {
-    "./css": "./src/styles"
-  },
+  "license": "MIT",
   "files": [
     "dist/*",
     "src/styles/*"
@@ -24,7 +22,7 @@
     "build-storybook": "build-storybook",
     "format": "prettier --write .",
     "create:lib": "rm -rf dist && vue-cli-service build --no-clean --target lib --name watson-vue src/main.js",
-    "published": "yarn version patch && yarn create:lib && npm publish"
+    "release": "yarn version patch && yarn create:lib && npm publish"
   },
   "sideEffects": true,
   "peerDependencies": {

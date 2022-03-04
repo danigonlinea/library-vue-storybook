@@ -1,9 +1,9 @@
-$small: 1em;
-$medium: 2em;
-$large: 3em;
+$spacing-small: 1em;
+$spacing-medium: 2em;
+$spacing-large: 3em;
 
 :root {
-  --spacing-small: $small;
-  --spacing-medium: $medium;
-  --spacing-large: $large;
+  --spacing-small: $spacing-small;
+  --spacing-medium: $spacing-medium;
+  --spacing-large: $spacing-large;
 }

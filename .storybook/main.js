@@ -1,5 +1,20 @@
 module.exports = {
-  stories: ['../src/**/*.stories.mdx', '../src/**/*.stories.@(js|jsx|ts|tsx)'],
-  addons: ['@storybook/addon-links', '@storybook/addon-essentials'],
-  framework: '@storybook/vue',
-}
+  stories: ["../src/**/*.stories.mdx", "../src/**/*.stories.@(js|jsx|ts|tsx)"],
+  addons: [
+    "@storybook/addon-links",
+    "@storybook/addon-essentials",
+    {
+      name: "storybook-addon-sass-postcss",
+      options: {
+        sassLoaderOptions: {
+          implementation: require("sass"),
+        },
+      },
+    },
+  ],
+ 
+  framework: "@storybook/vue",
+  features: {
+    postcss: false,
+  },
+};

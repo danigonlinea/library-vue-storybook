@@ -3,7 +3,7 @@ $spacing-medium: 2em;
 $spacing-large: 3em;
 
 :root {
-  --spacing-small: $spacing-small;
-  --spacing-medium: $spacing-medium;
-  --spacing-large: $spacing-large;
+  --spacing-small: #{$spacing-small};
+  --spacing-medium: #{$spacing-medium};
+  --spacing-large: #{$spacing-large};
 }

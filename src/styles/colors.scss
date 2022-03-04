@@ -4,7 +4,7 @@ $color-warn: #dfa612;
 $color-example: #abbcaa;
 
 :root {
-  --color-primary: $color-primary;
-  --color-accent: $color-accent;
-  --color-warn: $color-warn;
+  --color-primary: #{$color-primary};
+  --color-accent: #{$color-accent};
+  --color-warn: #{$color-warn};
 }

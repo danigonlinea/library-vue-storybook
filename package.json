@@ -22,7 +22,7 @@
     "sb": "start-storybook -p 6006",
     "build:sb": "build-storybook",
     "format": "prettier --write .",
-    "create:lib": "rm -rf dist && vue-cli-service build --no-clean --target lib --name watson-vue src/main-lib.js",
+    "create:lib": "rm -rf dist && vue-cli-service build --no-clean --target lib --name watson-vue src/install.js",
     "release:patch": "yarn version --patch && yarn create:lib && yarn publish --access public --non-interactive --registry=https://registry.npmjs.org/"
   },
   "sideEffects": true,

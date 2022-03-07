@@ -39,10 +39,6 @@
 }
 ```
 
-```
-yarn install
-```
-
 ## Install dependencies & compiles for development (Storybook)
 
 ```

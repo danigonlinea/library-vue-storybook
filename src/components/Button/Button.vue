@@ -43,11 +43,6 @@ export default {
         [`watson-btn-${this.size}`]: true,
       }
     },
-    style() {
-      return {
-        backgroundColor: this.backgroundColor,
-      }
-    },
   },
 
   methods: {
@@ -65,5 +60,5 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import './Button';
+@import './Button.scss';
 </style>

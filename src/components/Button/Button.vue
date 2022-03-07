@@ -46,19 +46,5 @@ export default {
 </script>
 
 <style lang="scss">
-@import '../../styles/colors.scss';
-@import '../../styles/spacing.scss';
-
-.watson-btn {
-  border: 1px solid $color-example;
-  border-radius: 3px;
-  background-color: var(--color-primary);
-  cursor: pointer;
-  font-size: 15pt;
-  padding: 3px 10px;
-  margin: 10px;
-  border: 4px solid var(--color-primary);
-  padding: var(--spacing-small) var(--spacing-medium);
-  transition: 0.25s ease-in-out all;
-}
+@import './Button';
 </style>

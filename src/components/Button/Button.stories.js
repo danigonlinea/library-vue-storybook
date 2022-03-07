@@ -1,24 +1,55 @@
 import Button from './Button.vue'
+import { BUTTON_SIZES, BUTTON_VARIANTS } from './config'
 
 export default {
-  title: 'Components/Button',
+  title: 'Components',
   component: Button,
-  // More on argTypes: https://storybook.js.org/docs/vue/api/argtypes
   argTypes: {
-    backgroundColor: { control: 'color' },
     size: {
-      control: { type: 'select' },
-      options: ['small', 'medium', 'large'],
+      options: BUTTON_SIZES,
+      control: {
+        type: 'select',
+      },
+    },
+    variant: {
+      options: BUTTON_VARIANTS,
     },
   },
+  props: [
+    { name: 'label', description: 'The text inside the button.' },
+    {
+      name: 'variant',
+      description: 'Button variant.',
+      control: {
+        type: 'select',
+        options: BUTTON_VARIANTS,
+      },
+    },
+    {
+      name: 'size',
+      description: 'Button size.',
+      control: {
+        type: 'select',
+        options: BUTTON_SIZES,
+      },
+    },
+  ],
 }
 
-export const WithLabelText = () => ({
+// More on component templates: https://storybook.js.org/docs/vue/writing-stories/introduction#using-args
+const Template = (args, { argTypes }) => ({
+  props: Object.keys(argTypes),
   components: { Button },
-  template: '<Button label="This is custom Label" />',
+  template: '<Button @onClick="onClick" v-bind="$props" />',
+  events: [
+    { name: 'onClick', description: 'Emmited when the button is clicked.' },
+  ],
 })
 
-export const WithSomeEmoji = () => ({
-  components: { Button },
-  template: '<Button  label="😀 😎 👍 💯" />',
-})
+export const WatsonButton = Template.bind({})
+WatsonButton.storyName = 'Button'
+// Default values for render
+WatsonButton.args = {
+  variant: 'primary',
+  size: 'medium',
+}

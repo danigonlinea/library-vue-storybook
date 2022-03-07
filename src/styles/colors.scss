@@ -1,10 +1,13 @@
-$color-primary: #aaafff;
+$color-primary: #88d9e6;
+$color-secondary: #f2d0a9;
 $color-accent: #302e24;
 $color-warn: #dfa612;
 $color-example: #abbcaa;
 
+// Global design tokens with css custom properties
 :root {
   --color-primary: #{$color-primary};
+  --color-secondary: #{$color-secondary};
   --color-accent: #{$color-accent};
   --color-warn: #{$color-warn};
 }

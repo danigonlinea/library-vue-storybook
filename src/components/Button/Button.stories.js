@@ -14,7 +14,9 @@ export default {
     variant: {
       options: BUTTON_VARIANTS,
     },
+    onClick: { action: 'clicked' },
   },
+
   props: [
     { name: 'label', description: 'The text inside the button.' },
     {
@@ -39,11 +41,9 @@ export default {
 // More on component templates: https://storybook.js.org/docs/vue/writing-stories/introduction#using-args
 const Template = (args, { argTypes }) => ({
   props: Object.keys(argTypes),
+  args,
   components: { Button },
-  template: '<Button @onClick="onClick" v-bind="$props" />',
-  events: [
-    { name: 'onClick', description: 'Emmited when the button is clicked.' },
-  ],
+  template: `<Button @click="onClick" v-bind="$props" />`,
 })
 
 export const WatsonButton = Template.bind({})

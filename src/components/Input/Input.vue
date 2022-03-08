@@ -8,10 +8,7 @@
       :class="inputClass"
       :value="localValue"
       :disabled="disabled"
-      @input="
-        localValue = $event.target.value
-        $emit('input', newValue)
-      "
+      @input="onInput"
     />
   </div>
 </template>
@@ -20,7 +17,7 @@
 import { INPUT_TYPES } from './config'
 
 export default {
-  name: 'Button',
+  name: 'Input',
 
   props: {
     label: {
@@ -76,7 +73,12 @@ export default {
     },
   },
 
-  methods: {},
+  methods: {
+    onInput(evt) {
+      this.localValue = evt.target.value
+      this.$emit('input', this.newValue)
+    },
+  },
 }
 </script>
 

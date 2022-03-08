@@ -7,6 +7,9 @@
     "type": "git",
     "url": "https://github.com/danigonlinea/watson-vue-storybook"
   },
+  "keywords": [
+    "design-system"
+  ],
   "author": "danigonlinea",
   "main": "dist/watson-vue.umd.min.js",
   "license": "MIT",

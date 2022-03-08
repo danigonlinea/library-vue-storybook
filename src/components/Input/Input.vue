@@ -1,8 +1,9 @@
 <template>
   <div>
-    <label class="watson-input-label"> {{ label }}</label>
+    <label class="watson-input-label" :for="id"> {{ label }}</label>
     <input
       class="watson-input"
+      :id="id"
       :type="type"
       :placeholder="placeholder"
       :class="inputClass"
@@ -20,6 +21,10 @@ export default {
   name: 'Input',
 
   props: {
+    id: {
+      type: String,
+      required: true,
+    },
     label: {
       type: String,
       required: true,

@@ -8,6 +8,7 @@ $btn-background-secondary: $color-secondary;
 $btn-text-color-secondary: black;
 
 .watson-btn {
+  font-size: 1rem;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -32,14 +33,14 @@ $btn-text-color-secondary: black;
   }
 
   &-small {
-    padding: $spacing-small $spacing-medium;
+    padding: $spacing-x-small $spacing-small;
   }
 
   &-medium {
-    padding: $spacing-medium $spacing-large;
+    padding: $spacing-small $spacing-medium;
   }
 
   &-large {
-    padding: $spacing-large $spacing-x-large;
+    padding: $spacing-small $spacing-large;
   }
 }

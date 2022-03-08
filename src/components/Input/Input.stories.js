@@ -41,6 +41,7 @@ export const WatsonInput = Template.bind({})
 WatsonInput.storyName = 'Input'
 // Default values for render
 WatsonInput.args = {
+  id: 'watson-input-id',
   type: 'text',
   disabled: false,
 }

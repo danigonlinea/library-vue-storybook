@@ -24,6 +24,7 @@ export const WatsonToggle = Template.bind({})
 WatsonToggle.storyName = 'Toggle'
 // Default values for render
 WatsonToggle.args = {
+  id: 'watson-toggle-id',
   disabled: false,
-  value: false,
+  checked: false,
 }

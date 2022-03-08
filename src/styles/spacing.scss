@@ -1,3 +1,4 @@
+$spacing-x-small: 0.75em;
 $spacing-small: 1em;
 $spacing-medium: 2em;
 $spacing-large: 3em;
@@ -5,6 +6,7 @@ $spacing-x-large: 4em;
 
 // Global design tokens with css custom properties
 :root {
+  --spacing-x-small: #{$spacing-small};
   --spacing-small: #{$spacing-small};
   --spacing-medium: #{$spacing-medium};
   --spacing-large: #{$spacing-large};

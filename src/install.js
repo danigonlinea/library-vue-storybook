@@ -1,5 +1,4 @@
 import * as components from './components'
-import * as utils from './utils'
 
 const install = Vue => {
   if (install.installed) return
@@ -13,11 +12,11 @@ const install = Vue => {
   }
 }
 
+export * from './components'
+export * from './utils'
+
 export default {
-  // version: '0.0.1',
   install,
-  ...utils,
-  ...components,
 }
 
 if (typeof window !== 'undefined' && window.Vue) {

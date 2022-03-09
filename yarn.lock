@@ -1493,7 +1493,7 @@
     ts-dedent "^2.0.0"
     util-deprecate "^1.0.2"
 
-"@storybook/addon-actions@6.4.19", "@storybook/addon-actions@^6.4.19":
+"@storybook/addon-actions@6.4.19":
   version "6.4.19"
   resolved "https://registry.yarnpkg.com/@storybook/addon-actions/-/addon-actions-6.4.19.tgz#10631d9c0a6669810264ea7fac3bff7201553084"
   integrity sha512-GpSvP8xV8GfNkmtGJjfCgaOx6mbjtyTK0aT9FqX9pU0s+KVMmoCTrBh43b7dWrwxxas01yleBK9VpYggzhi/Fw==
@@ -4145,9 +4145,9 @@ caniuse-api@^3.0.0:
     lodash.uniq "^4.5.0"
 
 caniuse-lite@^1.0.0, caniuse-lite@^1.0.30001109, caniuse-lite@^1.0.30001313:
-  version "1.0.30001313"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001313.tgz#a380b079db91621e1b7120895874e2fd62ed2e2f"
-  integrity sha512-rI1UN0koZUiKINjysQDuRi2VeSCce3bYJNmDcj3PIKREiAmjakugBul1QSkg/fPrlULYl6oWfGg3PbgOSY9X4Q==
+  version "1.0.30001314"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001314.tgz#65c7f9fb7e4594fca0a333bec1d8939662377596"
+  integrity sha512-0zaSO+TnCHtHJIbpLroX7nsD+vYuOVjl3uzFbJO1wMVbuveJA0RK2WcQA9ZUIOiO0/ArMiMgHJLxfEZhQiC0kw==
 
 capture-exit@^2.0.0:
   version "2.0.0"
@@ -5423,9 +5423,9 @@ ejs@^2.6.1:
   integrity sha512-7vmuyh5+kuUyJKePhQfRQBhXV5Ce+RnaeeQArKu1EAMpL3WbgMt5WG6uQZpEVvYSSsxMXRKOewtDk9RaTKXRlA==
 
 electron-to-chromium@^1.4.76:
-  version "1.4.76"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.76.tgz#a0494baedaf51094b1c172999919becd9975a934"
-  integrity sha512-3Vftv7cenJtQb+k00McEBZ2vVmZ/x+HEF7pcZONZIkOsESqAqVuACmBxMv0JhzX7u0YltU0vSqRqgBSTAhFUjA==
+  version "1.4.78"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.78.tgz#7a1cf853efafde2c4cf6e86facf3e5792d3541a5"
+  integrity sha512-o61+D/Lx7j/E0LIin/efOqeHpXhwi1TaQco9vUcRmr91m25SfZY6L5hWJDv/r+6kNjboFKgBw1LbfM0lbhuK6Q==
 
 element-resize-detector@^1.2.2:
   version "1.2.4"
@@ -8302,9 +8302,9 @@ markdown-escapes@^1.0.0:
   integrity sha512-8z4efJYk43E0upd0NbVXwgSTQs6cT3T06etieCMEg7dRbzCbxUCK/GHlX8mhHRDcp+OLlHkPKsvqQTCvsRl2cg==
 
 markdown-to-jsx@^7.1.3:
-  version "7.1.6"
-  resolved "https://registry.yarnpkg.com/markdown-to-jsx/-/markdown-to-jsx-7.1.6.tgz#421487df2a66fe4231d94db653a34da033691e62"
-  integrity sha512-1wrIGZYwIG2gR3yfRmbr4FlQmhaAKoKTpRo4wur4fp9p0njU1Hi7vR8fj0AUKKIcPduiJmPprzmCB5B/GvlC7g==
+  version "7.1.7"
+  resolved "https://registry.yarnpkg.com/markdown-to-jsx/-/markdown-to-jsx-7.1.7.tgz#a5f22102fb12241c8cea1ca6a4050bb76b23a25d"
+  integrity sha512-VI3TyyHlGkO8uFle0IOibzpO1c1iJDcXcS/zBrQrXQQvJ2tpdwVzVZ7XdKsyRz1NdRmre4dqQkMZzUHaKIG/1w==
 
 md5.js@^1.3.4:
   version "1.3.5"

@@ -3,7 +3,6 @@ module.exports = {
   addons: [
     "@storybook/addon-links",
     "@storybook/addon-essentials",
-    "@storybook/addon-actions",
     "@storybook/addon-a11y",
     "storybook-addon-designs",
     {
@@ -15,7 +14,7 @@ module.exports = {
       },
     },
   ],
- 
+
   framework: "@storybook/vue",
   features: {
     postcss: false,

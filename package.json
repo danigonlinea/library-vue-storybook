@@ -1,6 +1,6 @@
 {
   "name": "watson-vue",
-  "version": "0.0.27",
+  "version": "0.0.28",
   "private": false,
   "description": "Watson Vue Components",
   "repository": {
@@ -15,6 +15,7 @@
   "license": "MIT",
   "files": [
     "dist/*",
+    "src/components/*",
     "src/styles/*"
   ],
   "scripts": {

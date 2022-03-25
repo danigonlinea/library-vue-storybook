@@ -1,0 +1,18 @@
+@import '../semantic/index.css';
+
+:root {
+  --watson-button-background-primary: var(--watson-color-primary);
+  --watson-button-text-primary: var(--watson-color-text-primary);
+
+  --watson-button-background-secondary: var(--watson-color-secondary);
+  --watson-button-text-primary: var(--watson-color-text-secondary);
+
+  --watson-button-p-xs: var(--watson-space-xs);
+  --watson-button-p-s: var(--watson-space-s);
+  --watson-button-p-m: var(--watson-space-m);
+  --watson-button-p-l: var(--watson-space-l);
+
+  --watson-button-m-s: var(--watson-space-s);
+  --watson-button-m-m: var(--watson-space-m);
+  --watson-button-m-l: var(--watson-space-l);
+}

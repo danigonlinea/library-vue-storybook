@@ -16,7 +16,7 @@
   "files": [
     "dist/*",
     "src/components/*",
-    "src/styles/*"
+    "src/css-design-tokens/*"
   ],
   "scripts": {
     "inspect": "vue-cli-service inspect",

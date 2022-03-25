@@ -1,0 +1,13 @@
+/* Watson Core Spacing Units */
+
+:root {
+  --watson-space-unit-0: 0;
+  --watson-space-unit-0x-1-4: 0.25rem;
+  --watson-space-unit-0x-half: 0.5rem;
+  --watson-space-unit-0x-3-4: 0.75rem;
+  --watson-space-unit-1x: 1rem;
+  --watson-space-unit-1x-half: 1.5rem;
+  --watson-space-unit-2x: 2rem;
+  --watson-space-unit-3x: 3rem;
+  --watson-space-unit-4x: 4rem;
+}

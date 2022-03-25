@@ -1,0 +1,19 @@
+/* Semantic
+
+  Tokens in this tier reference core tokens. Their name describes the intended use of the token. In contrast to core tokens, these tokens are supposed to be used by everyone and will be exposed as public tokens.
+ */
+@import '../core/index.css';
+
+:root {
+  --watson-color-primary: var(--watson-color-blue-500);
+  --watson-color-secondary: var(--watson-color-orange-200);
+
+  --watson-color-text-primary: var(--watson-color-white);
+  --watson-color-text-secondary: var(--watson-color-black);
+
+  --watson-space-xs: var(--watson-space-unit-0x-half);
+  --watson-space-s: var(--watson-space-unit-1x);
+  --watson-space-m: var(--watson-space-unit-2x);
+  --watson-space-l: var(--watson-space-unit-3x);
+  --watson-space-xl: var(--watson-space-unit-4x);
+}

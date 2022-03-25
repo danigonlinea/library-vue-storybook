@@ -16,4 +16,6 @@
   --watson-space-m: var(--watson-space-unit-2x);
   --watson-space-l: var(--watson-space-unit-3x);
   --watson-space-xl: var(--watson-space-unit-4x);
+
+  --watson-box-shadow-small: var(--watson-box-shadow-unit-1x);
 }

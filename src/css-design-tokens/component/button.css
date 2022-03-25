@@ -5,7 +5,7 @@
   --watson-button-text-primary: var(--watson-color-text-primary);
 
   --watson-button-background-secondary: var(--watson-color-secondary);
-  --watson-button-text-primary: var(--watson-color-text-secondary);
+  --watson-button-text-secondary: var(--watson-color-text-secondary);
 
   --watson-button-p-xs: var(--watson-space-xs);
   --watson-button-p-s: var(--watson-space-s);

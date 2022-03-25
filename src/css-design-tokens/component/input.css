@@ -1,0 +1,11 @@
+@import '../semantic/index.css';
+
+:root {
+  --watson-input-p-s: var(--watson-space-s);
+  --watson-input-p-m: var(--watson-space-m);
+  --watson-input-p-l: var(--watson-space-l);
+
+  --watson-input-m-s: var(--watson-space-s);
+  --watson-input-m-m: var(--watson-space-m);
+  --watson-input-m-l: var(--watson-space-l);
+}

@@ -1,0 +1,5 @@
+/* Watson Core Box Shadows */
+
+:root {
+  --watson-box-shadow-unit-1x: 0px 2px 2px rgba(0, 0, 0, 0.2);
+}

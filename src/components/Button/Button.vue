@@ -12,6 +12,7 @@
 </template>
 
 <script>
+import './Button.scss'
 import { BUTTON_SIZES, BUTTON_VARIANTS } from './config'
 
 export default {
@@ -58,7 +59,3 @@ export default {
   },
 }
 </script>
-
-<style lang="scss" scoped>
-@import './Button.scss';
-</style>

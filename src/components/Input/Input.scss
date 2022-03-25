@@ -1,16 +1,16 @@
-/* @import '../../styles/spacing.css';
+@import '../../css-design-tokens/component/input.css';
 
 .watson-input {
   display: block;
 
-  padding-block-start: $spacing-small;
-  padding-block-end: $spacing-small;
-  padding-inline-start: calc($spacing-small * 1.5);
-  padding-inline-end: calc($spacing-small * 1.5);
+  padding-block-start: var(--watson-input-p-s);
+  padding-block-end: var(--watson-input-p-s);
+  padding-inline-start: calc(var(--watson-input-p-s) * 1.5);
+  padding-inline-end: calc(var(--watson-input-p-s) * 1.5);
 
   &-label {
     display: flex;
     justify-content: flex-start;
-    padding-bottom: $spacing-small;
+    padding-bottom: var(--watson-input-p-s);
   }
-} */
+}

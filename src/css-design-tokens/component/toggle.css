@@ -1,0 +1,21 @@
+@import '../semantic/index.css';
+
+:root {
+  --watson-toggle-background: #98a1ab;
+  --watson-toggle-background-disabled: #dcdfe3;
+  --watson-toggle-background-checked: #3d83df;
+
+  --watson-toggle-btn-background: white;
+  --watson-toggle-btn-background-disabled: white;
+  --watson-toggle-btn-background-checked: #3d83df;
+
+  --watson-toggle-btn-shadow: var(--watson-box-shadow-small);
+
+  --watson-toggle-p-s: var(--watson-space-s);
+  --watson-toggle-p-m: var(--watson-space-m);
+  --watson-toggle-p-l: var(--watson-space-l);
+
+  --watson-toggle-m-s: var(--watson-space-s);
+  --watson-toggle-m-m: var(--watson-space-m);
+  --watson-toggle-m-l: var(--watson-space-l);
+}

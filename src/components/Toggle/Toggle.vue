@@ -16,6 +16,8 @@
 </template>
 
 <script>
+import './Toggle.scss'
+
 export default {
   name: 'Toggle',
   props: {
@@ -44,7 +46,3 @@ export default {
   },
 }
 </script>
-
-<style lang="scss" scoped>
-@import './Toggle.scss';
-</style>

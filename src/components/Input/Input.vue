@@ -15,6 +15,7 @@
 </template>
 
 <script>
+import './Input.scss'
 import { INPUT_TYPES } from './config'
 
 export default {
@@ -86,7 +87,3 @@ export default {
   },
 }
 </script>
-
-<style lang="scss" scoped>
-@import './Input.scss';
-</style>
